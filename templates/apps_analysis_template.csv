@@ -1,0 +1,11 @@
+app_name,package_name,category,detected_sdks,detection_evidence
+СберБанк Онлайн,ru.sberbankmobile,Финансы,"sber-id, sberpay, rustore-push, appmetrica","Package ru.sberbank.sberid, ru.sberbank.pay, ru.rustore.sdk.push, com.yandex.metrica"
+ВКонтакте,com.vkontakte.android,Соцсети,"vk-id, appmetrica, rustore-push, yandex-ads","Package com.vk.id, io.appmetrica.analytics, ru.rustore.sdk.push"
+Т-Банк,com.mrbank.android,Финансы,"tinkoff-acquiring, appmetrica, rustore-push","Package ru.tinkoff.acquiring.sdk, com.yandex.metrica"
+2ГИС,ru.dublgis.dgismobile,Навигация,"dgis-maps, appmetrica, rustore-push","Native lib lib2gis_sdk.so, Package ru.dgis.sdk, com.yandex.metrica"
+Яндекс Go,ru.yandex.taxi, Еда и навигация,"yandex-maps, appmetrica, yandex-ads, rustore-push","Native lib libyandex-mapkit-native.so, Package com.yandex.mapkit, io.appmetrica.analytics"
+Ozon,ru.ozon.app.android, Покупки,"appmetrica, mytracker, rustore-push, vk-id","Package io.appmetrica.analytics, com.my.tracker, com.vk.id"
+Wildberries,com.wildberries.ru,Покупки,"appmetrica, mytracker, rustore-push","Package io.appmetrica.analytics, com.my.tracker, ru.rustore.sdk.push"
+Авито,com.avito.android, Объявления,"appmetrica, rustore-push, yandex-ads, vk-id","Package io.appmetrica.analytics, ru.rustore.sdk.push, com.yandex.mobile.ads"
+VK Музыка,ru.vk.music,Музыка,"vk-id, appmetrica, rustore-push, yandex-ads","Package com.vk.id, io.appmetrica.analytics, ru.rustore.sdk.push"
+RuStore,ru.vk.rustore,Инструменты,"rustore-push, rustore-pay, appmetrica","Package ru.rustore.sdk.push, ru.rustore.sdk.billingclient, io.appmetrica.analytics"

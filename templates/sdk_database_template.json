@@ -1,0 +1,171 @@
+{
+  "sdks": [
+    {
+      "id": "rustore-push",
+      "name": "RuStore Push SDK",
+      "category": "push",
+      "package_prefixes": ["ru.rustore.sdk.push"],
+      "manifest_signatures": [
+        "ru.rustore.sdk.push.fcm.RuStoreFcmMessagingService",
+        "ru.rustore.sdk.push.messaging.RuStoreMessagingService"
+      ],
+      "native_libs": [],
+      "official_repo": "https://maven.rustore.ru"
+    },
+    {
+      "id": "rustore-pay",
+      "name": "RuStore Pay / Billing SDK",
+      "category": "payments",
+      "package_prefixes": ["ru.rustore.sdk.billingclient"],
+      "manifest_signatures": [
+        "ru.rustore.sdk.billingclient.presentation.BillingActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://maven.rustore.ru"
+    },
+    {
+      "id": "appmetrica",
+      "name": "Yandex AppMetrica",
+      "category": "analytics",
+      "package_prefixes": ["com.yandex.metrica", "io.appmetrica.analytics"],
+      "manifest_signatures": [
+        "com.yandex.metrica.IMetricaService",
+        "com.yandex.metrica.ApiKey"
+      ],
+      "native_libs": [],
+      "official_repo": "https://repo.maven.apache.org/maven2"
+    },
+    {
+      "id": "yandex-maps",
+      "name": "Yandex MapKit SDK",
+      "category": "maps",
+      "package_prefixes": ["com.yandex.mapkit"],
+      "manifest_signatures": [
+        "com.yandex.android.geo.API_KEY"
+      ],
+      "native_libs": ["libyandex-mapkit-native.so"],
+      "official_repo": "https://maven.google.com"
+    },
+    {
+      "id": "yandex-ads",
+      "name": "Yandex Mobile Ads SDK",
+      "category": "ads",
+      "package_prefixes": ["com.yandex.mobile.ads"],
+      "manifest_signatures": [
+        "com.yandex.mobile.ads.common.AdActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://repo.maven.apache.org/maven2"
+    },
+    {
+      "id": "vk-id",
+      "name": "VK ID SDK",
+      "category": "auth",
+      "package_prefixes": ["com.vk.id", "com.vk.sdk"],
+      "manifest_signatures": [
+        "com.vk.id.auth.VKAuthActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com/VKCOM/vkid-android-sdk"
+    },
+    {
+      "id": "mytracker",
+      "name": "MyTracker Analytics",
+      "category": "analytics",
+      "package_prefixes": ["com.my.tracker"],
+      "manifest_signatures": [
+        "com.my.tracker.MyTracker"
+      ],
+      "native_libs": [],
+      "official_repo": "https://repo.maven.apache.org/maven2"
+    },
+    {
+      "id": "sber-id",
+      "name": "Sber ID SDK",
+      "category": "auth",
+      "package_prefixes": ["ru.sberbank.sberid"],
+      "manifest_signatures": [
+        "ru.sberbank.sberid.SberIdActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com/sberbank"
+    },
+    {
+      "id": "sberpay",
+      "name": "SberPay Mobile SDK",
+      "category": "payments",
+      "package_prefixes": ["ru.sberbank.pay"],
+      "manifest_signatures": [
+        "ru.sberbank.pay.SberPayActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com/sberbank"
+    },
+    {
+      "id": "tinkoff-acquiring",
+      "name": "T-Bank Acquiring SDK",
+      "category": "payments",
+      "package_prefixes": ["ru.tinkoff.acquiring.sdk"],
+      "manifest_signatures": [
+        "ru.tinkoff.acquiring.sdk.ui.activities.PaymentActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com/Tinkoff/acquiring-sdk-android"
+    },
+    {
+      "id": "dgis-maps",
+      "name": "2GIS Map SDK",
+      "category": "maps",
+      "package_prefixes": ["ru.dgis.sdk"],
+      "manifest_signatures": [
+        "ru.dgis.sdk.DGis"
+      ],
+      "native_libs": ["lib2gis_sdk.so"],
+      "official_repo": "https://repo.maven.apache.org/maven2"
+    },
+    {
+      "id": "huawei-push",
+      "name": "Huawei HMS Push SDK",
+      "category": "push",
+      "package_prefixes": ["com.huawei.hms.push"],
+      "manifest_signatures": [
+        "com.huawei.hms.support.api.push.service.HmsMsgService"
+      ],
+      "native_libs": [],
+      "official_repo": "https://developer.huawei.com/repo"
+    },
+    {
+      "id": "firebase-fcm",
+      "name": "Firebase Cloud Messaging",
+      "category": "push",
+      "package_prefixes": ["com.google.firebase.messaging"],
+      "manifest_signatures": [
+        "com.google.firebase.messaging.FirebaseMessagingService"
+      ],
+      "native_libs": [],
+      "official_repo": "https://maven.google.com"
+    },
+    {
+      "id": "firebase-analytics",
+      "name": "Google Analytics for Firebase",
+      "category": "analytics",
+      "package_prefixes": ["com.google.firebase.analytics"],
+      "manifest_signatures": [
+        "com.google.android.gms.measurement.AppMeasurementService"
+      ],
+      "native_libs": [],
+      "official_repo": "https://maven.google.com"
+    },
+    {
+      "id": "sentry-android",
+      "name": "Sentry Android Crash Reporting",
+      "category": "crash_reporting",
+      "package_prefixes": ["io.sentry.android"],
+      "manifest_signatures": [
+        "io.sentry.android.core.SentryInitProvider"
+      ],
+      "native_libs": ["libsentry.so"],
+      "official_repo": "https://repo.maven.apache.org/maven2"
+    }
+  ]
+}
