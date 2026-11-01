@@ -1,0 +1,341 @@
+{
+  "sdks": [
+    {
+      "id": "rustore-push",
+      "name": "RuStore Push SDK",
+      "category": "push",
+      "package_prefixes": [
+        "ru.rustore.sdk.pushclient",
+        "ru.rustore.sdk.push",
+        "ru.rustore.sdk.universalpush.rustore"
+      ],
+      "manifest_signatures": [
+        "ru.rustore.sdk.pushclient.provider.RuStorePushClientInitProvider",
+        "ru.rustore.sdk.pushclient.internal.arbiter.ArbiterBroadcastReceiver"
+      ],
+      "native_libs": [],
+      "official_repo": "https://nexus-external.rustore.ru/repository/maven-rustore-exposed/"
+    },
+    {
+      "id": "rustore-pay",
+      "name": "RuStore BillingClient SDK (legacy)",
+      "category": "payments",
+      "package_prefixes": [
+        "ru.rustore.sdk.billingclient"
+      ],
+      "manifest_signatures": [],
+      "native_libs": [],
+      "official_repo": "https://nexus-external.rustore.ru/repository/maven-rustore-exposed/"
+    },
+    {
+      "id": "appmetrica",
+      "name": "Yandex AppMetrica",
+      "category": "analytics",
+      "package_prefixes": [
+        "com.yandex.metrica",
+        "io.appmetrica.analytics"
+      ],
+      "manifest_signatures": [
+        "io.appmetrica.analytics.internal.AppMetricaService",
+        "com.yandex.metrica.MetricaService",
+        "io.appmetrica.analytics.internal.PreloadInfoContentProvider"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com/appmetrica/appmetrica-sdk-android"
+    },
+    {
+      "id": "yandex-maps",
+      "name": "Yandex MapKit SDK",
+      "category": "maps",
+      "package_prefixes": [
+        "com.yandex.mapkit"
+      ],
+      "manifest_signatures": [],
+      "native_libs": [
+        "libmaps-mobile.so"
+      ],
+      "official_repo": "https://repo.maven.apache.org/maven2/com/yandex/android/maps.mobile/"
+    },
+    {
+      "id": "yandex-ads",
+      "name": "Yandex Mobile Ads SDK",
+      "category": "ads",
+      "package_prefixes": [
+        "com.yandex.mobile.ads"
+      ],
+      "manifest_signatures": [
+        "com.yandex.mobile.ads.common.AdActivity",
+        "com.yandex.mobile.ads.core.initializer.YandexAdsInitializeProvider",
+        "com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider"
+      ],
+      "native_libs": [],
+      "official_repo": "https://repo.maven.apache.org/maven2"
+    },
+    {
+      "id": "vk-id",
+      "name": "VK ID SDK",
+      "category": "auth",
+      "package_prefixes": [
+        "com.vk.id"
+      ],
+      "manifest_signatures": [],
+      "native_libs": [],
+      "official_repo": "https://github.com/VKCOM/vkid-android-sdk"
+    },
+    {
+      "id": "mytracker",
+      "name": "MyTracker Analytics",
+      "category": "analytics",
+      "package_prefixes": [
+        "com.my.tracker"
+      ],
+      "manifest_signatures": [],
+      "native_libs": [],
+      "official_repo": "https://github.com/myTrackerSDK/mytracker-android"
+    },
+    {
+      "id": "tinkoff-acquiring",
+      "name": "T-Bank Acquiring SDK",
+      "category": "payments",
+      "package_prefixes": [
+        "ru.tinkoff.acquiring.sdk"
+      ],
+      "manifest_signatures": [],
+      "native_libs": [],
+      "official_repo": "https://github.com/tinkoff-mobile-tech/tinkoff-asdk-android"
+    },
+    {
+      "id": "dgis-maps",
+      "name": "2GIS Map SDK",
+      "category": "maps",
+      "package_prefixes": [
+        "ru.dgis.sdk"
+      ],
+      "manifest_signatures": [],
+      "native_libs": [],
+      "official_repo": "https://artifactory.2gis.dev/sdk-maven-release/"
+    },
+    {
+      "id": "huawei-push",
+      "name": "Huawei HMS Push SDK",
+      "category": "push",
+      "package_prefixes": [
+        "com.huawei.hms.push"
+      ],
+      "manifest_signatures": [
+        "com.huawei.hms.support.api.push.service.HmsMsgService",
+        "com.huawei.hms.support.api.push.PushReceiver"
+      ],
+      "native_libs": [],
+      "official_repo": "https://developer.huawei.com/repo"
+    },
+    {
+      "id": "firebase-fcm",
+      "name": "Firebase Cloud Messaging",
+      "category": "push",
+      "package_prefixes": [
+        "com.google.firebase.messaging"
+      ],
+      "manifest_signatures": [
+        "com.google.firebase.messaging.FirebaseMessagingService",
+        "com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+      ],
+      "native_libs": [],
+      "official_repo": "https://maven.google.com"
+    },
+    {
+      "id": "firebase-analytics",
+      "name": "Google Analytics for Firebase",
+      "category": "analytics",
+      "package_prefixes": [
+        "com.google.firebase.analytics"
+      ],
+      "manifest_signatures": [
+        "com.google.android.gms.measurement.AppMeasurementService",
+        "com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+      ],
+      "native_libs": [],
+      "official_repo": "https://maven.google.com"
+    },
+    {
+      "id": "sentry-android",
+      "name": "Sentry Android Crash Reporting",
+      "category": "crash_reporting",
+      "package_prefixes": [
+        "io.sentry.android"
+      ],
+      "manifest_signatures": [
+        "io.sentry.android.core.SentryInitProvider"
+      ],
+      "native_libs": [
+        "libsentry.so",
+        "libsentry-android.so"
+      ],
+      "official_repo": "https://github.com/getsentry/sentry-java"
+    },
+    {
+      "id": "firebase-crashlytics",
+      "name": "Firebase Crashlytics",
+      "category": "crash_reporting",
+      "package_prefixes": [
+        "com.google.firebase.crashlytics"
+      ],
+      "manifest_signatures": [
+        "com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+      ],
+      "native_libs": [
+        "libcrashlytics.so",
+        "libcrashlytics-common.so",
+        "libcrashlytics-handler.so",
+        "libcrashlytics-trampoline.so"
+      ],
+      "official_repo": "https://github.com/firebase/firebase-android-sdk"
+    },
+    {
+      "id": "mytarget",
+      "name": "myTarget SDK",
+      "category": "ads",
+      "package_prefixes": [
+        "com.my.target"
+      ],
+      "manifest_signatures": [
+        "com.my.target.common.MyTargetActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com/myTargetSDK/mytarget-android"
+    },
+    {
+      "id": "appmetrica-push",
+      "name": "AppMetrica Push SDK",
+      "category": "push",
+      "package_prefixes": [
+        "io.appmetrica.analytics.push",
+        "com.yandex.metrica.push"
+      ],
+      "manifest_signatures": [
+        "io.appmetrica.analytics.push.internal.receiver.AppMetricaPushBroadcastReceiver",
+        "com.yandex.metrica.push.core.notification.MetricaPushBroadcastReceiver"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com/appmetrica/push-sdk-android"
+    },
+    {
+      "id": "appsflyer",
+      "name": "AppsFlyer Android SDK",
+      "category": "analytics",
+      "package_prefixes": [
+        "com.appsflyer"
+      ],
+      "manifest_signatures": [
+        "com.appsflyer.MultipleInstallBroadcastReceiver",
+        "com.appsflyer.samsung_referrer.SamsungReferrerInitProvider"
+      ],
+      "native_libs": [],
+      "official_repo": "https://repo.maven.apache.org/maven2/com/appsflyer/af-android-sdk/"
+    },
+    {
+      "id": "yandex-login",
+      "name": "Yandex Login SDK",
+      "category": "auth",
+      "package_prefixes": [
+        "com.yandex.authsdk"
+      ],
+      "manifest_signatures": [
+        "com.yandex.authsdk.internal.AuthSdkActivity",
+        "com.yandex.authsdk.internal.BrowserDataActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com/yandexmobile/yandex-login-sdk-android"
+    },
+    {
+      "id": "google-signin",
+      "name": "Google Sign-In (Google Play services Auth)",
+      "category": "auth",
+      "package_prefixes": [
+        "com.google.android.gms.auth.api.signin"
+      ],
+      "manifest_signatures": [
+        "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+        "com.google.android.gms.auth.api.signin.RevocationBoundService"
+      ],
+      "native_libs": [],
+      "official_repo": "https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-auth/"
+    },
+    {
+      "id": "firebase-performance",
+      "name": "Firebase Performance Monitoring",
+      "category": "analytics",
+      "package_prefixes": [
+        "com.google.firebase.perf"
+      ],
+      "manifest_signatures": [
+        "com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com/firebase/firebase-android-sdk/tree/master/firebase-perf"
+    },
+    {
+      "id": "firebase-remoteconfig",
+      "name": "Firebase Remote Config",
+      "category": "utility",
+      "package_prefixes": [
+        "com.google.firebase.remoteconfig"
+      ],
+      "manifest_signatures": [
+        "com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com/firebase/firebase-android-sdk/tree/master/firebase-config"
+    },
+    {
+      "id": "firebase-dynamiclinks",
+      "name": "Firebase Dynamic Links (legacy)",
+      "category": "utility",
+      "package_prefixes": [
+        "com.google.firebase.dynamiclinks"
+      ],
+      "manifest_signatures": [
+        "com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+      ],
+      "native_libs": [],
+      "official_repo": "https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-dynamic-links/"
+    },
+    {
+      "id": "mlkit-barcode",
+      "name": "Google ML Kit Barcode Scanning",
+      "category": "utility",
+      "package_prefixes": [
+        "com.google.mlkit.vision.barcode"
+      ],
+      "manifest_signatures": [
+        "com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+      ],
+      "native_libs": [
+        "libbarhopper_v3.so"
+      ],
+      "official_repo": "https://dl.google.com/dl/android/maven2/com/google/mlkit/barcode-scanning/"
+    },
+    {
+      "id": "huawei-location",
+      "name": "Huawei HMS Location Kit",
+      "category": "maps",
+      "package_prefixes": [
+        "com.huawei.hms.location"
+      ],
+      "manifest_signatures": [],
+      "native_libs": [],
+      "official_repo": "https://developer.huawei.com/repo/com/huawei/hms/location/"
+    },
+    {
+      "id": "divkit",
+      "name": "Yandex DivKit Android",
+      "category": "utility",
+      "package_prefixes": [
+        "com.yandex.div"
+      ],
+      "manifest_signatures": [],
+      "native_libs": [],
+      "official_repo": "https://github.com/divkit/divkit"
+    }
+  ]
+}
